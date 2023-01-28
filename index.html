@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic-Shopping</title>
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function stickymenu () {
+            var sticky=document.getElementById('sticky');
+            if(window.pageYOffset > 220) {
+                sticky.classList.add ('stisky');
+            }
+            else{
+                sticky.classList.remove('sticky');
+            }
+        }
+        window.onscroll = function() {
+            stickyMenu();
+        }
+    </script>    
+</head>
+    <body>
+<div class="parallax">
+    <div class="page-title">Eat Fresh</div>
+</div>
+<div class="menu" id="sticky">
+    <ul class="menu-ul">
+        <a href="#home" class="a-menu"><li>HOME</li></a>
+        <a href="#deals" class="a-menu"><li>DEALS</li></a>
+        <a href="#vegetabes" class="a-menu"><li>VEGETABLES</li></a>
+        <a href="#fruits" class="a-menu"><li>FRUITS</li></a>
+        <a href="#meat" class="a-menu"><li>MEAT</li></a>
+        <a href="#cart" class="a-menu"><li>CART</li></a>
+    </ul>
+</div>
+<!--Home page Begins-->
+    <div class="container">
+        <a href="#vegetables">
+            <div class="categories">
+                <img src="img/greepepper.jpg" class="item-image">
+                <div class="image-title">Vegetables</div>
+            </div>
+        </a>
+        <a href="#fruits">
+            <div class="categories">
+                <img src="img/strawberries.jpg" class="item-image">
+                <div class="image-title">Fruits</div>
+            </div>
+        </a>
+        <a href="#meat">
+            <div class="categories">
+                <img src="img/chicken.jpg" class="item-image">
+                <div class="image-title">Meat & Seafood</div>
+            </div>
+        </a>
+        <a href="#deals">
+            <div class="categories">
+                <img src="img/deals.jpg" class="item-image">
+                <div class="image-title">Deals</div>
+            </div>
+        </a>
+        <a href="#vegetables">
+            <div class="categories">
+                <img src="img/greepepper.jpg" class="item-image">
+                <div class="image-title">Vegetables</div>
+            </div>
+        </a>
+    </div>
+    <!--Deal Begins Here-->
+    <div class="deals-container" id="deals">
+        <div class="parallax">
+            <div class="title">DEALS</div>
+        </div>
+        <div class="deal">
+            Save 20% on min-purchase of $149 on vegetables <br>
+            <button class="coupon-btn"> Add Coupon</button>
+        </div>
+        <div class="deal">
+            Save 10% on min-purchase of $149 on fruits <br>
+            <button class="coupon-btn"> Add Coupon</button>
+        </div>
+        <div class="deal">
+            Save 15% on min-purchase of $149 on meat/seafood <br>
+            <button class="coupon-btn"> Add Coupon</button>
+        </div>
+    </div>
+    <!--Deal Ends Here-->
+    <!--Vegetables Begins Here-->
+    <div class="deals-container" id="vegetables">
+        <div class="parallax">
+            <div class="title">VEGETABLES</div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="img/okra.jpg" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Organic Okra</b><br>
+            <div class="item-select">
+                Price : $2.99/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 grams</option>
+                <option>500 grams</option>
+                <option>750 grams</option>
+                <option>1000 grams</option>
+            </select><br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="img/greepepper.jpg" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Organic Greenpepper</b><br>
+            <div class="item-select">
+                Price : $3.99/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 grams</option>
+                <option>500 grams</option>
+                <option>750 grams</option>
+                <option>1000 grams</option>
+            </select><br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="img/tomatoes.jpg" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Organic Tomatoes</b><br>
+            <div class="item-select">
+                Price : $1.49/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 grams</option>
+                <option>500 grams</option>
+                <option>750 grams</option>
+                <option>1000 grams</option>
+            </select><br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="img/onions.jpg" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Yellow Onions</b><br>
+            <div class="item-select">
+                Price : $1.29/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 grams</option>
+                <option>500 grams</option>
+                <option>750 grams</option>
+                <option>1000 grams</option>
+            </select><br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="img/spinach.jpg" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Organic Spinach</b><br>
+            <div class="item-select">
+                Price : $3.99/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 grams</option>
+                <option>500 grams</option>
+                <option>750 grams</option>
+                <option>1000 grams</option>
+            </select><br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="img/carrots.jpg" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Organic Carrots</b><br>
+            <div class="item-select">
+                Price : $4.99/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 grams</option>
+                <option>500 grams</option>
+                <option>750 grams</option>
+                <option>1000 grams</option>
+            </select><br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+    </div>
+    <!--Vegetables Ends Here-->
+    <!--Fruits Begins Here-->
+    <div class="deals-container" id="vegetables">
+        <div class="parallax">
+            <div class="title">Fruits</div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="img/apples.jpg" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Organic Apple</b><br>
+            <div class="item-select">
+                Price : $5.99/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 grams</option>
+                <option>500 grams</option>
+                <option>750 grams</option>
+                <option>1000 grams</option>
+            </select><br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="img/kiwi.jpg" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Organic Kiwi</b><br>
+            <div class="item-select">
+                Price : $7.99/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 grams</option>
+                <option>500 grams</option>
+                <option>750 grams</option>
+                <option>1000 grams</option>
+            </select><br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="img/dragonfruit.jpg" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Organic Dragon Fruit</b><br>
+            <div class="item-select">
+                Price : $8.49/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 grams</option>
+                <option>500 grams</option>
+                <option>750 grams</option>
+                <option>1000 grams</option>
+            </select><br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="img/strawberries.jpg" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Strawberries</b><br>
+            <div class="item-select">
+                Price : $4.99/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 grams</option>
+                <option>500 grams</option>
+                <option>750 grams</option>
+                <option>1000 grams</option>
+            </select><br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="img/watermelons.jpg" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Organic Watermelons</b><br>
+            <div class="item-select">
+                Price : $3.99/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 grams</option>
+                <option>500 grams</option>
+                <option>750 grams</option>
+                <option>1000 grams</option>
+            </select><br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="img/bananas.jpg" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Organic Bananas</b><br>
+            <div class="item-select">
+                Price : $1.99/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 grams</option>
+                <option>500 grams</option>
+                <option>750 grams</option>
+                <option>1000 grams</option>
+            </select><br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+    </div>
+    <!--Fruits  Ends Here-->
+    <!--Meat Begins Here-->
+    <div class="deals-container" id="meat">
+        <div class="parallax">
+            <div class="title">MEAT & SEAFOOD</div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="img/chicken.jpg" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Whole Chicken</b><br>
+            <div class="item-select">
+                Price : $3.99/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 grams</option>
+                <option>500 grams</option>
+                <option>750 grams</option>
+                <option>1000 grams</option>
+            </select><br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="img/lamb.jpg" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Fresh Lamb</b><br>
+            <div class="item-select">
+                Price : $7.99/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 grams</option>
+                <option>500 grams</option>
+                <option>750 grams</option>
+                <option>1000 grams</option>
+            </select><br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="img/prawns.jpg" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Peeled Prawns</b><br>
+            <div class="item-select">
+                Price : $8.49/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 grams</option>
+                <option>500 grams</option>
+                <option>750 grams</option>
+                <option>1000 grams</option>
+            </select><br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="images">
+            <img src="img/fish.jpg" class="item-image-size">
+        </div>
+        <div class="description">
+            <b>Live Fish</b><br>
+            <div class="item-select">
+                Price : $7.99/250grams
+            </div>
+            <label>Qty:</label>
+            <select class="item-select">
+                <option>250 grams</option>
+                <option>500 grams</option>
+                <option>750 grams</option>
+                <option>1000 grams</option>
+            </select><br>
+            <button class="buynow-btn">Buy Now</button>
+        </div>
+    </div>
+</div>
+<!--Meat  Ends Here-->
+<!--Home page Ends-->
+
+<!--footer starts here-->
+<div class="parallax1">
+    <div class="footer">
+        <div class="quick-links">
+            <div>Location</div>
+            <ul>
+                <li><a href="" class="a-links"> Address 1</a></li>
+                <li><a href="" class="a-links"> Address 2</a></li>
+                <li><a href="" class="a-links"> Address 3</a></li>
+            </ul>
+        </div>
+        <div class="quick-links">
+            <div>Quick Links</div>
+            <ul>
+                <li><a href="" class="a-links">Contact Us</a></li>
+                <li><a href="" class="a-links">FAQ</a></li>
+                <li><a href="" class="a-links">Help</a></li>
+            </ul>
+        </div>
+        <p style="color: #ff9900;">&copy; 2023 Seyidhuseyn Majidov</p>
+    </div>
+</div>
+<!--footer ends here-->
+
+</body>
+</html>
